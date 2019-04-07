@@ -4,7 +4,7 @@ Generate the first N prime numbers and makes a multiplication table based off of
 ## Getting Started
 This project was built using Xcode in C++. There are no additional dependencies required since only the built in libraries were used.
 If you have Xcode, simply click the .xcodeproj file to open the project in the environment to run or build it.
-Otherwise, all the files are in the folder labeled [Primes Number Multiplication Table] (https://github.com/Jaskiratpal/Prime-Number-Multiplication-Table/tree/master/Prime%20Number%20Multiplication%20Table) and add those to your C++ project and build it in the environment of your choice.
+Otherwise, all the files are in the folder labeled [Primes Number Multiplication Table](https://github.com/Jaskiratpal/Prime-Number-Multiplication-Table/tree/master/Prime%20Number%20Multiplication%20Table) and add those to your C++ project and build it in the environment of your choice.
 
 ## Running the tests
 
