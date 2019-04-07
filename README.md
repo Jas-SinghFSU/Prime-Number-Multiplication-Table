@@ -9,9 +9,14 @@ Otherwise, all the files are in the folder labeled [Primes Number Multiplication
 ## Time Complexity
 
 K = Number of Primes
+
 N = Numbers visited to generate K primes
 
 Generating K Prime Numbers [GeneratePrimes()] - O(N sqrt(N)) 
+
+Multiplication of Primes [DisplayTable()] - O(K^2)
+
+
 
 ## Running the tests
 
