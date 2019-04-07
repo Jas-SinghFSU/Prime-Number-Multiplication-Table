@@ -1,5 +1,5 @@
 # Prime-Number-Multiplication-Table
-Generate the first N prime numbers and makes a multiplication table based off of them. You can add more values to an already existing set by utilzing the existing functionality.
+Generates the first N prime numbers and makes a multiplication table based off of them. You can add more values to an already existing set by utilzing the existing functionality.
 
 ## Getting Started
 This project was built using Xcode in C++. There are no additional dependencies required since only the built in libraries were used.
