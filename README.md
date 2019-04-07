@@ -11,7 +11,7 @@ Otherwise, all the files are in the folder labeled [Primes Number Multiplication
 All appropriate functions can be called in main after creating a PrimesTable object.
 
 ```c++
-  int main(int argc, const char * argv[]) {
+int main(int argc, const char * argv[]) {
   PrimesTable primeVariable(10); //Will generate 10 prime numbers
 
   primeVariable.DisplayTable(); //Displays the multiplication table of the generated prime numbers
