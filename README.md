@@ -6,6 +6,26 @@ This project was built using Xcode in C++. There are no additional dependencies 
 If you have Xcode, simply click the .xcodeproj file to open the project in the environment to run or build it.
 Otherwise, all the files are in the folder labeled [Primes Number Multiplication Table](https://github.com/Jaskiratpal/Prime-Number-Multiplication-Table/tree/master/Prime%20Number%20Multiplication%20Table) and add those to your C++ project and build it in the environment of your choice.
 
+## Calling Functions
+
+All appropriate functions can be called in main after creating a PrimesTable object.
+
+```c++
+PrimesTable primeVariable(10); //Will generate 10 prime numbers
+
+primeVariable.DisplayTable(); //Displays the multiplication table of the generated prime numbers
+primeVariable.GenerateMorePrimes(5); //Generates 5 more prime numbers for a 15 total.
+primeVariable.DisplayAllPrimes(); //Displays all the prime numbers
+primeVariable.PrimeAt(1); //Returns the Second prime number. Note: Pass indexes
+primeVariable.NumberOfPrimes(); //Returns how many prime numbers there are
+primeVariable.ProductOfPrimeAt(2, 3); //Multiplies the 3rd and 4th prime numbers together and returns the value. Note: Pass indexes
+
+//========== Test Cases ==========//
+TestTenPrimes testVariable; //Declares the test variable that we use for testing
+testVariable.RunTest(); //Run the test on the first ten prime numbers
+
+```
+
 ## Time Complexity
 
 K = Number of Primes
