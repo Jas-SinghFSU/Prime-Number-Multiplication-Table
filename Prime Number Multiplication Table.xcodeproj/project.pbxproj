@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		41AD21DD22593DB9003B257B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41AD21DC22593DB9003B257B /* main.cpp */; };
+		41AD21E52259691A003B257B /* Primes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41AD21E42259691A003B257B /* Primes.cpp */; };
+		41AD21E8225979EE003B257B /* PrimesTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41AD21E6225979EE003B257B /* PrimesTable.cpp */; };
+		41AD21EB2259B891003B257B /* TestTenPrimes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41AD21EA2259B891003B257B /* TestTenPrimes.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		41AD21D922593DB9003B257B /* Prime Number Multiplication Table */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Prime Number Multiplication Table"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41AD21DC22593DB9003B257B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		41AD21E3225965D9003B257B /* Primes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Primes.h; sourceTree = "<group>"; };
+		41AD21E42259691A003B257B /* Primes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Primes.cpp; sourceTree = "<group>"; };
+		41AD21E6225979EE003B257B /* PrimesTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PrimesTable.cpp; sourceTree = "<group>"; };
+		41AD21E7225979EE003B257B /* PrimesTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrimesTable.h; sourceTree = "<group>"; };
+		41AD21E92259B73A003B257B /* TestTenPrimes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTenPrimes.h; sourceTree = "<group>"; };
+		41AD21EA2259B891003B257B /* TestTenPrimes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestTenPrimes.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				41AD21DC22593DB9003B257B /* main.cpp */,
+				41AD21E42259691A003B257B /* Primes.cpp */,
+				41AD21E3225965D9003B257B /* Primes.h */,
+				41AD21E6225979EE003B257B /* PrimesTable.cpp */,
+				41AD21E7225979EE003B257B /* PrimesTable.h */,
+				41AD21EA2259B891003B257B /* TestTenPrimes.cpp */,
+				41AD21E92259B73A003B257B /* TestTenPrimes.h */,
 			);
 			path = "Prime Number Multiplication Table";
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				41AD21DD22593DB9003B257B /* main.cpp in Sources */,
+				41AD21EB2259B891003B257B /* TestTenPrimes.cpp in Sources */,
+				41AD21E52259691A003B257B /* Primes.cpp in Sources */,
+				41AD21E8225979EE003B257B /* PrimesTable.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
