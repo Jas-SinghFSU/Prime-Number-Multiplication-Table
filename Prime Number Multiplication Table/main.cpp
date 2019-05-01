@@ -3,7 +3,7 @@
 //  Prime Number Multiplication Table
 //
 //  Created by Jaskiratpal Singh on 4/6/19.
-//  Funding Circle Code Challenge - A project that prints out the multiplication table of the first n prime numbers
+//  A project that prints out the multiplication table of the first n prime numbers
 //
 
 #include <iostream>
