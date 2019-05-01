@@ -1,4 +1,4 @@
-# Prime Number Multiplication Table (Funding Circle)
+# Prime Number Multiplication Table
 Generates the first N prime numbers and makes a multiplication table based off of them. You can add more values to an already existing set by utilzing the existing functionality.
 
 ## Getting Started
